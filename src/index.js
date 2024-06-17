@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const rootStyle = {
+	backgroundColor: '#626262', // BACKGROUND
+	minHeight: '100vh',
+	margin: 0,
+  };
 root.render(
+	
   <React.StrictMode>
-    <App />
+	<div style={rootStyle}>
+    	<App />
+	</div>
+
   </React.StrictMode>
 );
 
