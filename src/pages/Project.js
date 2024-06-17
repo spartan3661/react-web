@@ -5,7 +5,7 @@ import audioVizPic from '../assets/audio-visualizer.png'
 export default function Project() {
 	const visualizerData = {
 		title: "Audio Visualizer",
-		description: "replace",
+		description: "A simple audio visualizer app built using Python and PyQT5.",
 		imageURL: audioVizPic
 	}
 

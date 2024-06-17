@@ -10,6 +10,7 @@ const rootStyle = {
 	minHeight: '100vh',
 	margin: 0,
   };
+  
 root.render(
 	
   <React.StrictMode>
