@@ -6,7 +6,8 @@ export default function Project() {
 	const visualizerData = {
 		title: "Audio Visualizer",
 		description: "A simple audio visualizer app built using Python and PyQT5.",
-		imageURL: audioVizPic
+		imageURL: audioVizPic,
+		webURL: 'https://github.com/spartan3661/audioVisualizer'
 	}
 
 	const ItemGrid = ({ items }) => {
@@ -21,7 +22,10 @@ export default function Project() {
 		);
 	  }
 
-	const items =[<Card title={visualizerData.title} description={visualizerData.description} imageURL={visualizerData.imageURL} />]
+	const items =[<Card title={visualizerData.title} 
+		description={visualizerData.description} 
+		imageURL={visualizerData.imageURL} 
+		webURL={visualizerData.webURL}/>]
 
 
 	
